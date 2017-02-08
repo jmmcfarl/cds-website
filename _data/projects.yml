@@ -1,0 +1,15 @@
+- name: Cancer genomics
+  image: img/projects/phylogenetic_tree.svg
+  description: We reconstruct the evolutionary history of tumors to understand how different populations of cells evolve over time.
+
+- name: Post-transcriptional regulation
+  image: img/projects/rna.svg
+  description: We develop computational methods to understand the regulatory mechanisms of RNA-binding proteins, 3'-end mRNA processing, and alternative splicing.
+
+- name: Genotype-to-phenotype
+  image: img/projects/yeast.svg
+  description: We explore mutant phenotypes of single-deletion strains of S. cerevisiae by appylying novel machine learning approaches.
+
+- name: Precision medecing
+  image: img/projects/arthritis.svg
+  description: We use unsupervised learning to integrate biological and clinical data and find innovative predictors of disease trajectories.

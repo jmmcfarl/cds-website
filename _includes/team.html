@@ -1,0 +1,37 @@
+<!-- Team Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Team</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for member in site.data.members %}
+                {% if member.status == "current" %}
+                    {% include display_member.html member=member %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Alumni Section -->
+<section id="alumni" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Alumni</h2>
+            </div>
+        </div>
+
+        <div>
+            {% for member in site.data.members %}
+                {% if member.status == "alumni" %}
+                {% include display_member.html member=member %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

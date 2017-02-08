@@ -1,0 +1,31 @@
+- name: Aviad Tsherniak
+  image: img/team/aviadTsherniak.png
+  title: Associate Director
+  github:
+  linkedin: https://www.linkedin.com/in/aviadt
+  google_scholar: https://scholar.google.com/citations?user=5WP7REMAAAAJ&hl=en
+  status: current
+
+- name: Philip Montgomery
+  image: img/team/unknown.png
+  title: Sr Principal Software Engineer
+  github:
+  linkedin:
+  google_scholar:
+  status: current
+
+- name: Robin Meyers
+  image: img/team/unknown.png
+  title: Associate Computational Biologist II
+  github:
+  linkedin:
+  google_scholar:
+  status: current
+
+- name: Scanner Cheung
+  image: img/team/unknown.png
+  title: Associate Computational Biologist
+  github:
+  linkedin:
+  google_scholar:
+  status: alumni

@@ -1,0 +1,11 @@
+# Ignore the generated website
+_site
+
+# Ignore jekyll's own metadata
+.jekyll-metadata
+
+# Ignore sass cache
+.sass-cache
+
+# Ignore Pycharm metadata
+.idea

@@ -1,0 +1,13 @@
+- title: "PhyloWGS: Reconstructing subclonal composition and evolution from whole-genome sequencing of tumors"
+  image: img/publications/phylowgs.svg
+  url: http://www.genomebiology.com/2015/16/1/35
+  authors:
+    - name: Amit G Deshwar
+    - name: Shankar Vembu
+    - name: Christina K Yung
+    - name: Gun Ho Jang
+    - name: Lincoln Stein
+    - name: Quaid Morris
+  date:
+    year: 2015
+    month: Feb

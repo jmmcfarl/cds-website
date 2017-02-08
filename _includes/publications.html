@@ -1,0 +1,48 @@
+<!-- Publications Grid Section -->
+<section id="publications">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Selected publications</h2>
+            </div>
+        </div>
+
+        {% for publication in site.data.publications %}
+            <div class="row publication">
+                <div class="col-md-4 col-sm-4 publication-image hidden-xs" style="text-align: right">
+                    <a href="{{ publication.url }}"><img src="{{ publication.image }}"></a>
+                </div>
+
+                <div class="col-md-6 col-sm-5 col-xs-6 publication-description">
+                    <h4><a href="{{ publication.url }}">{{ publication.title }}</a></h4>
+
+                    <ul class="publication-authors">
+                        {% for author in publication.authors %}
+                            <li>{{ author.name }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                    <div class="publication-date">
+                        <div>
+                            <span class="year">{{ publication.date.year }}</span>
+                            <span class="month">{{ publication.date.month }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>
+                    <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=tsherniak" target="_blank">
+                        See all publications
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </h3>
+            </div>
+        </div>
+    </div>
+</section>
