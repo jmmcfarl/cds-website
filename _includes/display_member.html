@@ -1,23 +1,42 @@
+{%capture member%}{{include.member}}{%endcapture%}
 <div class="col-sm-4">
     <div class="team-member">
-        <img src="{{ include.member.image }}" class="img-responsive img-circle">
-        <h4>{{ include.member.name }}</h4>
-        <p class="text-muted">{{ include.member.title }}</p>
+        <img src="{{ member.image }}" class="img-responsive img-circle">
+        <h4>{{ member.name }}</h4>
+        <p class="text-muted">{{ member.title }}</p>
         <ul class="list-inline social-buttons">
             <li>
-                <a target="_blank" href="{{ include.member.twitter }}">
+              {% if member.twitter == null or member.twitter == ""%}
+                <a class="disabled">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              {% else %}
+                <a target="_blank" href="{{ member.twitter }}">
                     <i class="fa fa-twitter"></i>
                 </a>
+              {%endif%}
             </li>
             <li>
-                <a target="_blank" href="{{ include.member.google_scholar }}">
+              {% if member.google_scholar == null or member.google_scholar == ""%}
+                <a class="disabled">
+                  <i class="fa fa-google"></i>
+                </a>
+              {% else %}
+                <a target="_blank" href="{{ member.google_scholar }}">
                     <i class="fa fa-google"></i>
                 </a>
+              {%endif%}
             </li>
             <li>
-                <a target="_blank" href="{{ include.member.linkedin }}">
+              {% if member.linkedin == null or member.linkedin == ""%}
+                <a class="disabled">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              {% else %}
+                <a target="_blank" href="{{ member.linkedin }}">
                     <i class="fa fa-linkedin"></i>
                 </a>
+              {%endif%}
             </li>
         </ul>
     </div>

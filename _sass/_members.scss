@@ -35,5 +35,16 @@ ul.social-buttons {
     &:focus, &:active {
       background-color: $primary-color;
     }
+
+    &.disabled {
+      &:hover,
+      &:focus, &:active {
+        background-color: #222;
+      }
+    }
+
+    .disabled {
+      pointer-events: none;
+    }
   }
 }
