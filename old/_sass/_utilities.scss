@@ -1,0 +1,12 @@
+$primary-color: #f45820;
+
+@mixin color_white_back_border_red() {
+  color: white;
+  background-color: #d6400b;
+  border-color: #cd3e0a;
+}
+
+@mixin back_border_primary() {
+  background-color: $primary-color;
+  border-color: $primary-color;
+}

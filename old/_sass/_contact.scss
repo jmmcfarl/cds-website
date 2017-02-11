@@ -1,0 +1,68 @@
+@import "utilities";
+
+section#contact {
+  background-color: #222;
+  background-size: cover;
+  background-image: url('../img/ccbr.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .section-heading {
+    color: white;
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+  }
+
+  .form-group input, .form-group textarea {
+    padding: 20px;
+  }
+
+  .form-group input.form-control {
+    height: auto;
+  }
+
+  .form-group textarea.form-control {
+    height: 236px;
+  }
+
+  .form-control:focus {
+    border-color: $primary-color;
+    box-shadow: none;
+  }
+
+  ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbbbbb;
+  }
+
+  :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbbbbb;
+  }
+
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbbbbb;
+  }
+
+  :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbbbbb;
+  }
+
+  .text-danger {
+    color: #e74c3c;
+  }
+}

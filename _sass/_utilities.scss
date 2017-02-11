@@ -1,4 +1,12 @@
-$primary-color: #f45820;
+// Color settings
+$primary-color: #fed136;
+$secondary-color: #fec503;
+$secondary-dark: #333;
+$muted: #777;
+
+// Font Families
+$font-primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif';
+$font-secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif';
 
 @mixin color_white_back_border_red() {
   color: white;
@@ -9,4 +17,9 @@ $primary-color: #f45820;
 @mixin back_border_primary() {
   background-color: $primary-color;
   border-color: $primary-color;
+}
+
+@mixin rgba-background($hexcolor, $opacity) {
+  background-color: $hexcolor;
+  background-color: rgba($hexcolor, $opacity);
 }

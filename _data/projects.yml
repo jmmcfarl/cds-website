@@ -9,7 +9,3 @@
 - name: Genotype-to-phenotype
   image: img/projects/yeast.svg
   description: We explore mutant phenotypes of single-deletion strains of S. cerevisiae by appylying novel machine learning approaches.
-
-- name: Precision medecing
-  image: img/projects/arthritis.svg
-  description: We use unsupervised learning to integrate biological and clinical data and find innovative predictors of disease trajectories.
