@@ -31,8 +31,8 @@ ul.social-buttons {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 
-    a:hover,
-    a:focus, a:active {
+    &:hover,
+    &:focus, &:active {
       background-color: $primary-color;
     }
   }
