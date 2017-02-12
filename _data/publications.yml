@@ -1,13 +1,66 @@
-- title: "PhyloWGS: Reconstructing subclonal composition and evolution from whole-genome sequencing of tumors"
-  image: img/publications/phylowgs.svg
-  url: http://www.genomebiology.com/2015/16/1/35
+- title: "Genomic copy number dictates a gene-independent cell response to CRISPR-Cas9 targeting"
+  image: img/publications/crispr.png
+  url: http://cancerdiscovery.aacrjournals.org/content/early/2016/06/03/2159-8290.CD-16-0154
   authors:
-    - name: Amit G Deshwar
-    - name: Shankar Vembu
-    - name: Christina K Yung
-    - name: Gun Ho Jang
-    - name: Lincoln Stein
-    - name: Quaid Morris
+    - name: Andrew J. Aguirre
+    - name: Robin M. Meyers
+    - name: Barbara A. Weir
+    - name: Francisca Vazquez
+    - name: Cheng-Zhong Zhang
+    - name: Uri Ben-David
+    - name: April Cook
+    - name: Gavin Ha
+    - name: William F. Harrington
+    - name: Mihir B. Doshi
+    - name: Maria Kost-Alimova
+    - name: Stanley Gill
+    - name: Han Xu
+    - name: Levi D. Ali
+    - name: Guozhi Jiang
+    - name: Sasha Pantel
+    - name: Yenarae Lee
+    - name: Amy Goodale
+    - name: Andrew D. Cherniack
+    - name: Coyin Oh
+    - name: Gregory Kryukov
+    - name: Glenn S. Cowley
+    - name: Levi A. Garraway
+    - name: Kimberly Stegmaier
+    - name: Charles W. Roberts
+    - name: Todd R. Golub
+    - name: Matthew Meyerson
+    - name: David E. Root
+    - name: Aviad Tsherniak
+    - name: William C. Hahn
   date:
-    year: 2015
-    month: Feb
+    year: 2016
+    month: June
+
+- title: "High-throughput identification of genotype-specific cancer vulnerabilities in mixtures of barcoded tumor cell lines."
+  image: img/publications/prism.png
+  url: https://www.ncbi.nlm.nih.gov/pubmed/26928769
+  authors:
+    - name: Yu C
+    - name: Mannan AM
+    - name: Yvone GM
+    - name: Ross KN
+    - name: Zhang YL
+    - name: Marton MA
+    - name: Taylor BR
+    - name: Crenshaw A
+    - name: Gould JZ
+    - name: Tamayo P
+    - name: Weir BA
+    - name: Tsherniak A
+    - name: Wong B
+    - name: Garraway LA
+    - name: Shamji AF
+    - name: Palmer MA
+    - name: Foley MA
+    - name: Winckler W
+    - name: Schreiber SL
+    - name: Kung AL
+    - name: Golub TR.
+  date:
+    year: 2016
+    month: April
