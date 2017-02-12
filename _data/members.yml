@@ -1,5 +1,5 @@
 - name: Aviad Tsherniak
-  image: img/team/aviadTsherniak.png
+  image: img/team/aviad_tsherniak.png
   title: Associate Director
   github:
   linkedin: https://www.linkedin.com/in/aviadt
@@ -15,7 +15,7 @@
   status: current
 
 - name: Robin Meyers
-  image: img/team/unknown.png
+  image: img/team/robin_meyers.jpg
   title: Associate Computational Biologist II
   github:
   linkedin:
