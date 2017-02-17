@@ -46,6 +46,14 @@
   google_scholar:
   status: current
 
+- name: James McFarland
+  image: img/team/unknown.png
+  title: Data Scientist (Machine Learning)
+  github: https://github.com/jmmcfarl
+  linkedin: https://www.linkedin.com/in/james-mcfarland-293934a8
+  google_scholar: https://scholar.google.com/citations?user=Jrm2Cr8AAAAJ&h
+  status: current
+  
 - name: Scanner Cheung
   image: img/team/unknown.png
   title: Associate Computational Biologist
