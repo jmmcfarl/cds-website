@@ -21,6 +21,14 @@
   linkedin:
   google_scholar:
   status: current
+  
+- name: Remi Marenco
+  image: img/team/remi_marenco.png
+  title: Bioinformatics Engineer
+  github: https://github.com/remimarenco
+  linkedin: https://www.linkedin.com/in/remimarenco/?locale=en_US
+  google_scholar:
+  status: current
 
 - name: Scanner Cheung
   image: img/team/unknown.png
