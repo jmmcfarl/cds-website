@@ -29,6 +29,14 @@
   linkedin: https://www.linkedin.com/in/remimarenco/?locale=en_US
   google_scholar:
   status: current
+  
+- name: Josh Dempster
+  image: img/team/unknown.png
+  title: Data Scientist (Machine Learning)
+  githib: https://github.com/joshdempster
+  linkedin: https://www.linkedin.com/in/joshdempster
+  google_scholar:
+  status: current
 
 - name: Scanner Cheung
   image: img/team/unknown.png
